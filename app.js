@@ -17,10 +17,6 @@ app.get("/pagina3", (req, res) => {
     res.send('<h1>Terceira Pagina!</h1>');
 });
 
-app.get("/pagina4", (req, res) => {
-    res.send('<h1>Terceira Pagina!</h1>');
-});
-
 app.listen(3000, () => {
     console.log("Servidor rodando na http://localhost:3000");
 });
